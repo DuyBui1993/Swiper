@@ -5,7 +5,7 @@ var version = "2.7.5";
 
 Package.describe({
   "name": packageName,
-  "summary": 'iDangero.us Swiper (official) - lightweight mobile touch slider, hardware accelerated transitions.',
+  "summary": 'iDangero.us Swiper (official) - ultra lightweight mobile touch slider with hardware accelerated transitions.',
   "version": version,
   "git": 'https://github.com/MeteorPackaging/Swiper.git'
 });
