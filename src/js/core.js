@@ -1507,10 +1507,10 @@ s.slideTo = function (slideIndex, speed, runCallbacks, internal) {
     var translate = - s.snapGrid[s.snapIndex];
 
     // Directions locks
-    if (!s.params.allowSlideToNext && translate < s.translate) {
+    if (!s.params.allowSwipeToNext && translate < s.translate) {
         return false;
     }
-    if (!s.params.allowSlideToPrev && translate > s.translate) {
+    if (!s.params.allowSwipeToPrev && translate > s.translate) {
         return false;
     }
 
